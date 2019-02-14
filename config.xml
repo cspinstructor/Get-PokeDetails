@@ -12,9 +12,14 @@
     <author email="goodfen84@gmail.com" href="http://goodfen.blogspot.com">
         GoodFun
     </author>
-    <platform name="android" />
+   
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="*" />
     <allow-intent href="*" />
+    <preference name="android-minSdkVersion" value="14" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
+
+    <platform name="android" />
+    <icon src="icon.png" />
 </widget>
