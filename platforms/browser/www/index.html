@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"
+    />
+    <title>Get PokeDetails</title>
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    />
+    <style type="text/css">
+      .centered {
+        text-align: center;
+        margin: 0 auto;
+      }
+      img {
+        width: 200px;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-role="page">
+      <div data-role="header" data-position="fixed">
+        <h1>Get Poke Details</h1>
+      </div>
+      <div role="main" class="ui-content centered">
+        <label for="text-basic">Enter Pokemon Name:</label>
+        <input
+          type="search"
+          name="text-basic"
+          id="txtinputname"
+          value=""
+          placeholder="Enter Pokemon Name"
+        />
+        <input type="button" value="Search" data-icon="search" id="btnsearch" />
+        <div id="result">Search Results...</div>
+        <div><img id="pokemonimage" src="" /></div>
+      </div>
+      <div data-role="footer" data-position="fixed"><h2>by GoodFun</h2></div>
+    </div>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>
