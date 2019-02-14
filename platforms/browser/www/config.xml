@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.goodfn.getpokedetails" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget android-VersionCode="10" id="com.goodfn.getpokedetails" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Get PokeDetails</name>
     <description>
         Enter name of your favourite Poke Character and fetch details about it
@@ -9,4 +9,6 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="*" />
+    <allow-intent href="*" />
 </widget>
